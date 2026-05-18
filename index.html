@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KartAI — Sluttrapport</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Space+Mono:wght@400;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo">KartAI</div>
+    <ul class="nav-links">
+      <li><a href="#hvorfor">Bakgrunn</a></li>
+      <li><a href="#maal">Målsetting</a></li>
+      <li><a href="#tall">Resultater</a></li>
+      <li><a href="#hvem">Partnere</a></li>
+      <li><a href="#hva">Prosjekter</a></li>
+      <li><a href="#ringvirkninger">Ringvirkninger</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+      <li><a href="#referanser" class="nav-cta">Ressurser</a></li>
+    </ul>
+    <button class="nav-hamburger" id="hamburger" aria-label="Meny">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO: VIDEO SECTION -->
+<section id="hero" class="section-hero">
+  <div class="video-bg">
+    <video autoplay muted loop playsinline id="hero-video">
+      <!-- Bytt ut src med faktisk videofil, f.eks. assets/hero.mp4 -->
+      <source src="KartAi - kortvideo.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-tag">Sluttrapport for innovasjonsprosjektet</div>
+    <h1 class="hero-title">KartAI</h1>
+    <p class="hero-subtitle">Kunstig intelligens for plan, byggesak og geodata</p>
+    <div class="hero-badges">
+      <span class="badge">Innovasjonsprosjekt</span>
+      <span class="badge">Kunstig intelligens</span>
+      <span class="badge">Åpent samarbeid</span>
+    </div>
+    <a href="#hvorfor" class="hero-scroll-cue">
+      <span>Utforsk rapporten</span>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M3 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- HVORFOR: FAKTA -->
+<section id="hvorfor" class="section-why">
+  <div class="container">
+    <div class="section-label">Bakgrunn</div>
+    <h2 class="section-title">Hvorfor KartAI?</h2>
+    <p class="section-lead">Byggesaksbehandling er sentralt for bærekraftig by- og stedsutvikling. Allikevel er det en prosess som oppleves komplisert for innbyggere, tidkrevende og byråkratisk. KartAi-prosjektet har hatt som målsetting å bidra til bedre og mer effektiv byggesaksbehandling basert på pålitelighet og tillit blant innbyggerne.</p>
+
+    <div class="facts-grid">
+      <div class="fact-card  fact-card--large scroll-reveal">
+        <div class="fact-number" data-target="70239" data-suffix="">0</div>
+        <div class="fact-label">Byggesaker i Norge (2025)</div>
+      </div>
+      <div class="fact-card scroll-reveal">
+        <div class="fact-number" data-target="37" data-suffix="%">0%</div>
+        <div class="fact-label">av byggesaker mangler fullstendig dokumentasjon ved innlevering</div>
+      </div>
+      <div class="fact-card scroll-reveal">
+        <div class="fact-number" data-target="6" data-suffix="%">0%</div>
+        <div class="fact-label">Økning i saksbehandlingstid (2020-2024)</div>
+      </div>
+
+    </div>
+
+    <div class="why-quote scroll-reveal">
+      <blockquote>
+        "KI kan automatisere og effektivisere byggesaksbehandlingen. Dette kan inkludere validering av dokumenter, persontilpasset informasjon, sjekk opp mot gjeldende lov- og regelverk, og anbefalinger for godkjenning eller avslag basert på tidligere vedtak og presedenssaker"
+      </blockquote>
+      <cite>— KS Rapport: Barrierer og muligheter i kommunal sektors arbeid med kunstig intelligens</cite>
+    </div>
+  </div>
+</section>
+
+<!-- MÅLSETTING -->
+<section id="maal" class="section-goal">
+  <div class="goal-bg-image">
+    <!-- Bytt ut med faktisk bilde: assets/goal-bg.jpg -->
+    <div class="goal-bg-placeholder">Bakgrunnsbilde: Logo + foredragsbilde<br><small>Legg til <code>assets/goal-bg.jpg</code></small></div>
+  </div>
+  <div class="goal-overlay"></div>
+  <div class="container goal-content">
+    <div class="section-label light">Målsetting</div>
+    <h2 class="section-title light">KartAI — visjon</h2>
+    <p class="goal-lead scroll-reveal">KartAI sitt hovedmål er å effektivisere kommunale arbeidsprosesser knyttet spesielt til matrikkel og byggesaksbehandling ved hjelp av automatiserte, avanserte datadrevne metoder, inkludert kunstig intelligens i kombinasjon med proaktiv innbyggerdialog.</p>
+    <div class="goal-cards">
+      <div class="goal-card scroll-reveal">
+        <div class="goal-icon">🗺️</div>
+        <h3>Åpne geodata</h3>
+        <p>Gjøre offentlige kartdata tilgjengelig og forståelig for alle innbyggere og fagfolk gjennom KI-drevne grensesnitt.</p>
+      </div>
+      <div class="goal-card scroll-reveal">
+        <div class="goal-icon">⚡</div>
+        <h3>Effektiv forvaltning</h3>
+        <p>Redusere manuelt arbeid i plan- og byggesak med automatiserte kontroller, analyse og innbyggerkommunikasjon.</p>
+      </div>
+      <div class="goal-card scroll-reveal">
+        <div class="goal-icon">🤝</div>
+        <h3>Åpent samarbeid</h3>
+        <p>Bygge et nasjonalt partnerskap mellom kommuner, akademia og næringsliv for å dele kunnskap og teknologi.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TALL / TEASERS -->
+<section id="tall" class="section-stats">
+  <div class="container">
+    <div class="section-label">Resultater i tall</div>
+    <h2 class="section-title">Prosjektet i tall</h2>
+    <div class="stats-grid">
+      <div class="stat-item scroll-reveal">
+        <div class="stat-num counter" data-target="2620" data-suffix="">0</div>
+        <div class="stat-label">Slides presentert</div>
+      </div>
+      <div class="stat-item scroll-reveal">
+        <div class="stat-num counter" data-target="149" data-suffix="">0</div>
+        <div class="stat-label">Bidragsytere på kode</div>
+      </div>
+      <div class="stat-item scroll-reveal">
+        <div class="stat-num counter" data-target="1966434" data-suffix="">0</div>
+        <div class="stat-label">Kodelinjer</div>
+      </div>
+            <div class="stat-item scroll-reveal">
+        <div class="stat-num counter" data-target="2342" data-suffix="">0</div>
+        <div class="stat-label">Sider studentoppgaver og artikler</div>
+      </div>
+      <div class="stat-item scroll-reveal stat-item--wide">
+        <div class="stat-num counter" data-target="500" data-suffix="+">0</div>
+        <div class="stat-label">Deltakere på workshops</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HVEM: PARTNERE -->
+<section id="hvem" class="section-who">
+  <div class="container">
+    <div class="section-label">Hvem</div>
+    <h2 class="section-title">Partnerskapet bak KartAI</h2>
+    <p class="section-lead">Kristiansand Kommune har vært prosjekteier for innovasjonsprosjetet i offentlig sektor (IPO) med tett samarbeid med hovedsamarbeidspartnere.</p>
+
+    <div class="partners-grid scroll-reveal">
+      <div class="partner-card">
+        <img src="hovedpartnere/kristiansand.jpg" alt="Kristiansand Kommune" class="partner-logo-img">
+        <div class="partner-name">Kristiansand Kommune</div>
+        <div class="partner-role">Prosjekteier</div>
+      </div>
+      <div class="partner-card">
+        <img src="hovedpartnere/uia-vertikal_med_navn.jpg" alt="Universitetet i Agder" class="partner-logo-img">
+        <div class="partner-name">Universitetet i Agder</div>
+        <div class="partner-role">Akademisk partner</div>
+      </div>
+      <div class="partner-card">
+        <img src="hovedpartnere/norkart.png" alt="Norkart" class="partner-logo-img">
+        <div class="partner-name">Norkart</div>
+        <div class="partner-role">Industripartner</div>
+      </div>
+      <div class="partner-card">
+        <img src="hovedpartnere/kartverket_staende_web.png" alt="Kartverket" class="partner-logo-img">
+        <div class="partner-name">Kartverket</div>
+        <div class="partner-role">Nasjonal partner</div>
+      </div>
+    </div>
+
+    <div class="associates-section scroll-reveal">
+      <h3 class="associates-title">Gode venner og samarbeidspartnere</h3>
+      <div class="associates-grid">
+        <div class="associate-logo"><img src="samarbeidspartnere/ntnu.png" alt="NTNU"></div>
+        <div class="associate-logo"><img src="samarbeidspartnere/knowit.png" alt="Knowit"></div>
+        <div class="associate-logo"><img src="samarbeidspartnere/digin.png" alt="Digin"></div>
+        <div class="associate-logo"><img src="samarbeidspartnere/geoforum.png" alt="Geoforum"></div>
+        <div class="associate-logo"><img src="samarbeidspartnere/ks.svg" alt="KS"></div>
+        <div class="associate-logo"><img src="samarbeidspartnere/nkf-logo.svg" alt="NKF"></div>
+        <div class="associate-logo"><img src="samarbeidspartnere/egde.png" alt="Egde"></div>
+        <div class="associate-logo"><img src="samarbeidspartnere/cair.png" alt="CAIR"></div>
+        <div class="associate-logo"><img src="samarbeidspartnere/tieto.png" alt="Tietoevry"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HVORDAN: STUDENTINVOLVERING -->
+<section id="hvordan" class="section-how">
+  <div class="container how-inner">
+    <div class="how-image scroll-reveal">
+      <div class="how-img-wrap">
+        <img src="../bilder/students.gif" alt="Studenter i KartAI" class="how-img">
+        <div class="how-img-tag">Åpent samarbeid</div>
+      </div>
+    </div>
+    <div class="how-text scroll-reveal">
+      <div class="section-label">Hvordan</div>
+      <h2 class="section-title">Studentinvolvering</h2>
+      <p>KartAI har fra starten hatt et utstrakt samarbeid med studenter gjennom miniprosjekter, bachelor- og masteroppgaver. Dette har skapt en unik kombinasjon av akademisk frihet og praktisk nytte.</p>
+      <ul class="how-list">
+        <li>Åpent samarbeid med utstrakt bruk av miniprosjekter</li>
+        <li>Bachelor- og masteroppgaver på reelle problemstillinger</li>
+        <li>Direkte bidrag til åpen kildekode</li>
+        <li>Workshops og demo-dager med ekstern deltakelse</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- HVA: PROSJEKTER ACCORDION -->
+<section id="hva" class="section-projects">
+  <div class="container">
+    <div class="section-label">Hva</div>
+    <h2 class="section-title">Prosjekter og eksperimenter</h2>
+    <p class="section-lead">Det har blitt jobbet i mange ulike prosjekter og eksperimenter innen KartAI. Under er en kort oversikt over noen av dem.</p>
+
+    <div class="accordion" id="accordion">
+
+      <div class="accordion-item scroll-reveal">
+        <button class="accordion-header" aria-expanded="false">
+          <span class="acc-icon">01</span>
+          <span class="acc-title">Innbyggerinvolvering</span>
+          <span class="acc-arrow">↓</span>
+        </button>
+        <div class="accordion-body">
+          <p class="acc-theme-desc">KartAI har utviklet KI-drevne løsninger som gjør kommunale tjenester mer tilgjengelige for innbyggerne. Arbeidet har fokusert på å forenkle søknadsprosesser, gi persontilpasset informasjon og gjøre det enklere å lage en komplett byggesøknad.</p>
+          <div class="acc-projects">
+            <div class="acc-project">
+              <div class="acc-project-name">TODO KRS-prosjekter</div>
+              <div class="acc-project-desc">KI-drevne verktøy for å gjøre kommunal plandata tilgjengelig for innbyggere i Kristiansand.</div>
+              <a href="#" class="acc-project-link">→ Les mer</a>
+            </div>
+            <div class="acc-project">
+              <div class="acc-project-name">TODO Tillegg</div>
+              <div class="acc-project-desc">Legg til flere prosjekter innen innbyggerinvolvering her.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item scroll-reveal">
+        <button class="accordion-header" aria-expanded="false">
+          <span class="acc-icon">02</span>
+          <span class="acc-title">Plan</span>
+          <span class="acc-arrow">↓</span>
+        </button>
+        <div class="accordion-body">
+          <p class="acc-theme-desc">Arealplaner, som reguleringsplaner er sentralt for en byggesøknad. KartAI har arbeidet med KI-basert innhenting, analyse og kvalitetssikring av reguleringsplaner. Gjennom flere ulike prosjekter er det utforsket hvordan KI kan brukes i planprosesser, i byggesøknad og i saksbehandling. Arbeidet spenner fra akademiske KI-benchmarks til prototyper for brukerinvolvering.</p>
+          <div class="acc-projects">
+            <div class="acc-project">
+              <div class="acc-project-name">PlanQuad</div>
+              <div class="acc-project-desc">KI-basert verktøy for evaluering av KI-agenter og RAG-arkitektur for reguleringsplaner.</div>
+              <a href="#" class="acc-project-link">→ Les mer</a>
+            </div>
+            <div class="acc-project">
+              <div class="acc-project-name">TODO Bachelorprosjekter</div>
+              <div class="acc-project-desc">Studenter har levert konkrete verktøy for plananalyse i samarbeid med kommunen.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item scroll-reveal">
+        <button class="accordion-header" aria-expanded="false">
+          <span class="acc-icon">03</span>
+          <span class="acc-title">Arkiv</span>
+          <span class="acc-arrow">↓</span>
+        </button>
+        <div class="accordion-body">
+          <p class="acc-theme-desc">KartAI har utforsket hvordan store språkmodeller kan gjøre kommunale arkiver søkbare og forståelige. Historiske vedtak, saksdokumenter og korrespondanse er gjort tilgjengelig gjennom naturlig språk, slik at saksbehandlere og innbyggere kan finne relevant informasjon uten å kjenne til arkivstrukturen.</p>
+          <div class="acc-projects">
+            <div class="acc-project">
+              <div class="acc-project-name">ArkivGPT</div>
+              <div class="acc-project-desc">RAG-eksperiment for søk og KI-tolkning av dokumenter fra byggesaksarkivet.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item scroll-reveal">
+        <button class="accordion-header" aria-expanded="false">
+          <span class="acc-icon">04</span>
+          <span class="acc-title">Matrikkel</span>
+          <span class="acc-arrow">↓</span>
+        </button>
+        <div class="accordion-body">
+          <p class="acc-theme-desc">Matrikkelføring og byggesaksbehandling er sentrale deler av KartAI-prosjektet. Det er utviklet verktøy for automatisk kontroll av søknader og tegninger mot gjeldende regelverk, noe som kan korte ned saksbehandlingstiden betydelig og gi søkere raskere og mer forutsigbare tilbakemeldinger.</p>
+          <div class="acc-projects">
+            <div class="acc-project">
+              <div class="acc-project-name">CADAiD</div>
+              <div class="acc-project-desc">KI-analyse av CAD-tegninger for automatisk kontroll av byggesøknader mot gjeldende regelverk.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item scroll-reveal">
+        <button class="accordion-header" aria-expanded="false">
+          <span class="acc-icon">05</span>
+          <span class="acc-title">Geodataplattform</span>
+          <span class="acc-arrow">↓</span>
+        </button>
+        <div class="accordion-body">
+          <p class="acc-theme-desc">KartAI har bygget en åpen geodataplattform og en rekke KI-modeller for tolkning og analyse av geografiske data. Fra automatisk klassifisering av flyfoto til naturlig språk-grensesnitt mot kartdatabaser — arbeidet legger grunnlaget for en ny generasjon geodatatjenester i offentlig sektor.</p>
+          <div class="acc-projects">
+            <div class="acc-project">
+              <div class="acc-project-name">KAi — FlyfotoAI</div>
+              <div class="acc-project-desc">Maskinlæringsmodell for automatisk tolkning og klassifisering av flyfoto.</div>
+              <a href="#" class="acc-project-link">→ Les mer</a>
+            </div>
+            <div class="acc-project">
+              <div class="acc-project-name">GeoGPT</div>
+              <div class="acc-project-desc">Naturlig språk-grensesnitt for geodata — spør om kartet i vanlig tekst.</div>
+              <div class="acc-project-links">
+                <a href="https://kartai.no/wp-content/uploads/2025/06/GeoGPT_Bachelor-It-og-informasjonssystemer.docx.pdf" class="acc-project-link" target="_blank">→ Bacheloroppgave</a>
+                <a href="https://github.com/kartverket/geogpt" class="acc-project-link" target="_blank">→ GitHub</a>
+              </div>
+            </div>
+            <div class="acc-project">
+              <div class="acc-project-name">Skygeo</div>
+              <div class="acc-project-desc">Skybasert geodataplattform for deling og analyse av kommunale geodatasett.</div>
+            </div>
+            <div class="acc-project">
+              <div class="acc-project-name">AtlasGPT</div>
+              <div class="acc-project-desc">KI-assistent for navigering i nasjonale kartdatabaser.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item scroll-reveal">
+        <button class="accordion-header" aria-expanded="false">
+          <span class="acc-icon">06</span>
+          <span class="acc-title">Formidling</span>
+          <span class="acc-arrow">↓</span>
+        </button>
+        <div class="accordion-body">
+          <p class="acc-theme-desc">Kunnskapsdeling har vært en sentral del av KartAI fra starten. Prosjektet har arrangert nasjonale workshops som har samlet kommuner, Kartverket, akademia og næringsliv for å bygge felles kompetanse om KI i geodata og offentlig forvaltning. Alt materiell er åpent tilgjengelig.</p>
+          <div class="acc-projects">
+            <div class="acc-project">
+              <div class="acc-project-name">Workshop: Deus ex Geomachina</div>
+              <div class="acc-project-desc">Nasjonal workshop om KI i geodata. Samlet fagmiljøer fra kommuner, Kartverket og akademia.</div>
+              <a href="https://colab.research.google.com/github/kartAI/deus-ex-geomachina/blob/main/deus_ex_geomachina.ipynb" class="acc-project-link" target="_blank">→ Google Colab</a>
+            </div>
+            <div class="acc-project">
+              <div class="acc-project-name">Workshop: KAi Flyfoto</div>
+              <div class="acc-project-desc">Praktisk workshop i bruk av KI-modeller på flyfoto for kommunale fagfolk.</div>
+              <a href="https://colab.research.google.com/github/kartAI/kartAI/blob/master/workshop_material/introduction_to_geospatial_ai_colab.ipynb" class="acc-project-link" target="_blank">→ Google Colab</a>
+
+            </div>
+            <div class="acc-project">
+              <div class="acc-project-name">Workshop: Cumulus Geographica</div>
+              <div class="acc-project-desc">Skybasert geodata og KI — fremtidens infrastruktur for kommunal geodataforvaltning.</div>
+              <a href="https://colab.research.google.com/github/kartAI/skygeo/blob/main/src/skygeo-workshop/Cumulus_Geographica.ipynb" class="acc-project-link" target="_blank">→ Google Colab</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- RINGVIRKNINGER: HORISONTAL SLIDER -->
+<section id="ringvirkninger" class="section-ripple">
+  <div class="container">
+    <div class="section-label">Fremover</div>
+    <h2 class="section-title">Ringvirkninger av prosjektet</h2>
+    <p class="section-lead">KartAI har satt varige spor langt utover prosjektets egne leveranser.</p>
+  </div>
+  <div class="ripple-slider-wrap">
+    <button class="slider-btn slider-btn--prev" id="sliderPrev" aria-label="Forrige">←</button>
+    <div class="ripple-slider" id="rippleSlider">
+
+      <div class="ripple-card">
+        <div class="ripple-num">01</div>
+        <h3>PhD-prosjekter</h3>
+        <p>Flere PhD-prosjekter på UiA har nå tilknytning til fagområdene byggesak, arkiv og geografisk data.</p>
+        <div class="ripple-tag">Akademia</div>
+      </div>
+
+      <div class="ripple-card">
+        <div class="ripple-num">02</div>
+        <h3>Digin — GeoAI</h3>
+        <p>Klynge-prosjekt på Geografisk IT og AI med inspirasjon fra KartAi-prosjektet.</p>
+        <div class="ripple-tag">Klyngeinitiativ</div>
+      </div>
+
+      <div class="ripple-card">
+        <div class="ripple-num">03</div>
+        <h3>Nytt fag på UiA - Geografisk IT og KI</h3>
+        <p>UiA har opprettet et nytt fag innen Geografisk IT og KI for IT-studenter</p>
+        <div class="ripple-tag">Utdanning</div>
+      </div>
+
+
+      <div class="ripple-card">
+        <div class="ripple-num">04</div>
+        <h3>KI-utviklere i Kristiansand</h3>
+        <p>Kommunen har bygget opp et eget team av KI-utviklere i Plan og bygg som direkte resultat av prosjektet.</p>
+        <div class="ripple-tag">Kommunal innovasjon</div>
+      </div>
+
+      <div class="ripple-card">
+        <div class="ripple-num">05</div>
+        <h3>Sjekklisteagenter i Stavanger Kommune</h3>
+        <p>Prosjekter mellom Stavanger kommune, Sikri og Norkart for uttesting av KI-agenter for sjekklister i byggesaksbehandling</p>
+        <div class="ripple-tag">Implementasjon</div>
+      </div>
+
+      <div class="ripple-card">
+        <div class="ripple-num">06</div>
+        <h3>AiAwards — Tangen VGS</h3>
+        <p>Videregående skole i Kristiansand med en konkurranse om å bruke AI i undervisningen. Tematikk har vært knyttet til blant annet plan- og byggesak.</p>
+        <div class="ripple-tag">Utdanning</div>
+      </div>
+
+      <div class="ripple-card">
+        <div class="ripple-num">07</div>
+        <h3>Planprat fra Norkart</h3>
+        <p>Norkarts produkt Planprat er inspirert av og bygger på forskning og prototyper fra KartAI.</p>
+        <div class="ripple-tag">Produkt</div>
+      </div>
+
+    </div>
+    <button class="slider-btn slider-btn--next" id="sliderNext" aria-label="Neste">→</button>
+  </div>
+  <div class="slider-dots" id="sliderDots"></div>
+</section>
+
+<!-- KONTAKT OSS -->
+<section id="kontakt" class="section-contact">
+  <div class="container">
+    <div class="section-label">Kontakt</div>
+    <h2 class="section-title">Kontakt oss</h2>
+    <p class="section-lead">Ta gjerne kontakt med oss om du har spørsmål om prosjektet eller ønsker å vite mer.</p>
+    <div class="contact-grid">
+
+      <div class="contact-card scroll-reveal">
+        <div class="contact-avatar" data-initials="NN" style="--avatar-hue: 220"></div>
+        <div class="contact-info">
+          <div class="contact-name">Dagfinn Øksendal</div>
+          <div class="contact-org">Kristiansand Kommune</div>
+          <a href="mailto:navn.navnesen@kristiansand.kommune.no" class="contact-email">navn.navnesen@kristiansand.kommune.no</a>
+          <a href="tel:+4712345678" class="contact-phone">+47 123 45 678</a>
+        </div>
+      </div>
+
+      <div class="contact-card scroll-reveal">
+        <div class="contact-avatar" data-initials="NN" style="--avatar-hue: 160"></div>
+        <div class="contact-info">
+          <div class="contact-name">Morten Goodwin</div>
+          <div class="contact-org">Universitetet i Agder</div>
+          <a href="mailto:navn.navnesen@uia.no" class="contact-email">navn.navnesen@uia.no</a>
+          <a href="tel:+4712345678" class="contact-phone">+47 123 45 678</a>
+        </div>
+      </div>
+
+      <div class="contact-card scroll-reveal">
+        <div class="contact-avatar" data-initials="NN" style="--avatar-hue: 270"></div>
+        <div class="contact-info">
+          <div class="contact-name">Alexander S. Nossum</div>
+          <div class="contact-org">Norkart</div>
+          <a href="mailto:navn.navnesen@norkart.no" class="contact-email">navn.navnesen@norkart.no</a>
+          <a href="tel:+4712345678" class="contact-phone">+47 123 45 678</a>
+        </div>
+      </div>
+
+      <div class="contact-card scroll-reveal">
+        <div class="contact-avatar" data-initials="NN" style="--avatar-hue: 30"></div>
+        <div class="contact-info">
+          <div class="contact-name">Lars Fredrik Gyland</div>
+          <div class="contact-org">Kartverket</div>
+          <a href="mailto:navn.navnesen@kartverket.no" class="contact-email">navn.navnesen@kartverket.no</a>
+          <a href="tel:+4712345678" class="contact-phone">+47 123 45 678</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- REFERANSER -->
+<section id="referanser" class="section-refs">
+  <div class="container">
+    <div class="section-label">Ressurser</div>
+    <h2 class="section-title">Referanser og lenker</h2>
+    <div class="refs-grid">
+      <a href="https://kartai.no" target="_blank" class="ref-card scroll-reveal">
+        <div class="ref-icon">🌐</div>
+        <div class="ref-title">kartai.no</div>
+        <div class="ref-desc">Prosjektets nettside med alle oppdateringer og ressurser</div>
+        <div class="ref-arrow">→</div>
+      </a>
+      <a href="https://kartai.no/rapporter-og-resultater/" target="_blank" class="ref-card scroll-reveal">
+        <div class="ref-icon">📄</div>
+        <div class="ref-title">Rapporter</div>
+        <div class="ref-desc">Alle offentlige rapporter og dokumenter fra prosjektet</div>
+        <div class="ref-arrow">→</div>
+      </a>
+      <a href="https://github.com/kartAi" target="_blank" class="ref-card scroll-reveal">
+        <div class="ref-icon">
+          <svg width="32" height="32" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+        </div>
+        <div class="ref-title">GitHub</div>
+        <div class="ref-desc">Åpen kildekode — alle leveranser tilgjengelig for gjenbruk</div>
+        <div class="ref-arrow">→</div>
+      </a>
+      <a href="https://huggingface.co/kartai" target="_blank" class="ref-card scroll-reveal">
+        <div class="ref-icon">🤗</div>
+        <div class="ref-title">Hugging Face</div>
+        <div class="ref-desc">Modeller og datasett publisert for det åpne forskningsmiljøet</div>
+        <div class="ref-arrow">→</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo">KartAI</div>
+      <p>Et prosjekt av Kristiansand Kommune<br>i partnerskap med norsk akademia og næringsliv.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://kartai.no" target="_blank">kartai.no</a>
+      <a href="https://github.com/kartai" target="_blank">GitHub</a>
+      <a href="https://huggingface.co/kartai" target="_blank">Hugging Face</a>
+    </div>
+    <div class="footer-copy">© 2026 KartAI</div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.2.0/scrollama.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
