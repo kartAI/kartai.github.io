@@ -167,7 +167,7 @@
         <div class="partner-role">Prosjekteier</div>
       </div>
       <div class="partner-card">
-        <img src="hovedpartnere/uia-vertikal_med_navn.jpg" alt="Universitetet i Agder" class="partner-logo-img">
+        <img src="hovedpartnere/uia-horisontal-med-navn.svg" alt="Universitetet i Agder" class="partner-logo-img">
         <div class="partner-name">Universitetet i Agder</div>
         <div class="partner-role">Akademisk partner</div>
       </div>
@@ -187,6 +187,7 @@
       <h3 class="associates-title">Gode venner og samarbeidspartnere</h3>
       <div class="associates-grid">
         <div class="associate-logo"><img src="samarbeidspartnere/ntnu.png" alt="NTNU"></div>
+        <div class="associate-logo"><img src="samarbeidspartnere/trondheim.svg" alt="Trondheim kommune"></div>
         <div class="associate-logo"><img src="samarbeidspartnere/knowit.png" alt="Knowit"></div>
         <div class="associate-logo"><img src="samarbeidspartnere/digin.png" alt="Digin"></div>
         <div class="associate-logo"><img src="samarbeidspartnere/geoforum.png" alt="Geoforum"></div>
@@ -218,6 +219,7 @@
         <li>Bachelor- og masteroppgaver på reelle problemstillinger</li>
         <li>Direkte bidrag til åpen kildekode</li>
         <li>Workshops og demo-dager med ekstern deltakelse</li>
+        <li>Handover av studenter til leverandørmarkedet</li>
       </ul>
     </div>
   </div>
@@ -242,13 +244,13 @@
           <p class="acc-theme-desc">KartAI har utviklet KI-drevne løsninger som gjør kommunale tjenester mer tilgjengelige for innbyggerne. Arbeidet har fokusert på å forenkle søknadsprosesser, gi persontilpasset informasjon og gjøre det enklere å lage en komplett byggesøknad.</p>
           <div class="acc-projects">
             <div class="acc-project">
-              <div class="acc-project-name">TODO KRS-prosjekter</div>
-              <div class="acc-project-desc">KI-drevne verktøy for å gjøre kommunal plandata tilgjengelig for innbyggere i Kristiansand.</div>
-              <a href="#" class="acc-project-link">→ Les mer</a>
+              <div class="acc-project-name">Min Drømmeplan</div>
+              <div class="acc-project-desc">Brukervennlig nettside for å formidle hva som gjelder i planbestemmelsene til innbyggere. Verktøy for å lage og forvalte "Drømmeplaner" i henhold til DiBK sine retningslinjer.</div>
+              <a href="http://geokrs.no/mikro-drommeplan" class="acc-project-link">→ Les mer</a>
             </div>
             <div class="acc-project">
-              <div class="acc-project-name">TODO Tillegg</div>
-              <div class="acc-project-desc">Legg til flere prosjekter innen innbyggerinvolvering her.</div>
+              <div class="acc-project-name">DiBK-veiviser</div>
+              <div class="acc-project-desc">Kartdreven veiviser for å hjelpe innbyggere til å finne ut om de må gjennomføre en byggesøknad.</div>
             </div>
           </div>
         </div>
@@ -264,13 +266,24 @@
           <p class="acc-theme-desc">Arealplaner, som reguleringsplaner er sentralt for en byggesøknad. KartAI har arbeidet med KI-basert innhenting, analyse og kvalitetssikring av reguleringsplaner. Gjennom flere ulike prosjekter er det utforsket hvordan KI kan brukes i planprosesser, i byggesøknad og i saksbehandling. Arbeidet spenner fra akademiske KI-benchmarks til prototyper for brukerinvolvering.</p>
           <div class="acc-projects">
             <div class="acc-project">
-              <div class="acc-project-name">PlanQuad</div>
-              <div class="acc-project-desc">KI-basert verktøy for evaluering av KI-agenter og RAG-arkitektur for reguleringsplaner.</div>
-              <a href="#" class="acc-project-link">→ Les mer</a>
+              <div class="acc-project-name">Norkart Planprat</div>
+              <div class="acc-project-desc">KI-plattform på planregisteret Arealplaner.no. Bruker teknologi utviklet i KartAi-prosjektet.</div>
+              <a href="https://planprat.ebyggesok.no/" class="acc-project-link">→ Les mer</a>
             </div>
             <div class="acc-project">
-              <div class="acc-project-name">TODO Bachelorprosjekter</div>
-              <div class="acc-project-desc">Studenter har levert konkrete verktøy for plananalyse i samarbeid med kommunen.</div>
+              <div class="acc-project-name">Proof of concepts: KI i planprosessen</div>
+              <div class="acc-project-desc">Bacheloroppgave som utforsker hvordan KI kan brukes til å forbedre planprosessen, med fokus på formidling, forståelse og kontroll for ulike aktører</div>
+              <a href="https://kartai.github.io/BachelorDemo/" class="acc-project-link">→ Les mer</a>
+            </div>
+            <div class="acc-project">
+              <div class="acc-project-name">NorPlanQA</div>
+              <div class="acc-project-desc">Evalueringsdatasett for KI-modeller på planbestemmelser.</div>  
+              <a href="https://huggingface.co/datasets/kartai/NorPlanQA" class="acc-project-link">→ Les mer</a>
+            </div>
+            <div class="acc-project">
+              <div class="acc-project-name">PlanBERT</div>
+              <div class="acc-project-desc">Fine-tuned BERT modell på planbestemmelser</div>
+              <a href="https://huggingface.co/kartai/PlanBERT/tree/main" class="acc-project-link">→ Les mer</a>
             </div>
           </div>
         </div>
@@ -436,6 +449,13 @@
         <h3>Planprat fra Norkart</h3>
         <p>Norkarts produkt Planprat er inspirert av og bygger på forskning og prototyper fra KartAI.</p>
         <div class="ripple-tag">Produkt</div>
+      </div>
+
+      <div class="ripple-card">
+        <div class="ripple-num">08</div>
+        <h3>Leverandørwebinar med DiBK</h3>
+        <p>Leverandørwebinar i samarbeid med DiBK som ble sendt til hele bransjen.</p>
+        <div class="ripple-tag">Formidling</div>
       </div>
 
     </div>
